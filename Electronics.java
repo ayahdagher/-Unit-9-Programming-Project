@@ -16,6 +16,14 @@ public Electronics(){
 }
   
 // parameter constructor 
+
+  public Electronics(double p, String c, String n, int q, String te, boolean bai){
+
+    // using the parameter constructor from the superclass, and adding the class' unique variables to it
+    super(p, c, n, q); 
+    typeOfElectronic = te ; 
+    batteryIncluded = bai ; 
+  }
   
 // accessors
 
