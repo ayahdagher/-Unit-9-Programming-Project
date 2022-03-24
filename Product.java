@@ -72,7 +72,7 @@ public void setQuantity(int q){
 
 public String toString(){
 
-  String output = "The name of the product is " + name + ". It costs " + price + "dollars, and they are made by " + company + ". There are " + quantity + " of them in stock." ;
+  String output = "The name of the product is " + name + ". It costs " + price + " dollars, and they are made by " + company + ". There are " + quantity + " of them in stock." ;
 
 return output ;   
     

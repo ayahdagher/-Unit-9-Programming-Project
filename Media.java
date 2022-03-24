@@ -39,7 +39,7 @@ public void setTypeOfMedia(String tm){
 public String toString()
   {
 
-    String output = super.toString() + "This is a "
+    String output = super.toString() + " This is a "
 + typeOfMedia + " media." ;     
 
     return output ; 

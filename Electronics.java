@@ -52,7 +52,7 @@ public void setTypeOfElectronic(String et){
 public String toString()
   {
 
-    String output = super.toString() + "This is a "
+    String output = super.toString() + " This is a "
 + typeOfElectronic + " electronic." ;     
 
     return output ; 
